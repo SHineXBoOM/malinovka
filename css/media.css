@@ -1,0 +1,119 @@
+@media(max-width:991.5px) {
+
+    .header, .main {
+        max-height: 100vh;
+    }
+    
+    .navbar-brand {
+        font-size: 20px;
+    }
+    
+    .navbar-ul {
+        height: 100vh;
+        text-align: center;
+        padding-top: 13vh !important;
+        display: block;
+        width: 300px;
+        padding: 0;
+        margin: auto;
+    }
+
+    .navbar-ul li {
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    .nav-title {
+        font-size: 24px;
+        text-transform: uppercase;
+        color: #000000;
+        font-family: 'Montserrat',
+            sans-serif;
+
+    }
+
+    .nav-line {
+        width: 20px;
+        margin: auto;
+        border-bottom: 1px solid #ccc;
+        margin-top: 10px;
+    }
+
+    .nav-end {
+        margin-top: 15px;
+        font-size: 20px;
+        color: #ffb600;
+        font-family: 'Chelsea Market',
+            cursive;
+        margin-bottom: 30px;
+    }
+
+    .soc-seti {
+        width: 180px;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+        margin: 0;
+        margin: auto;
+    }
+
+    .soc-seti li a {
+        font-size: 18px;
+        color: #000;
+    }
+
+    .soc-seti li:hover a {
+        color: #cccccc;
+    }
+
+
+    .header-text {
+        padding-top: 10vh;
+    }
+    
+    .header-title {
+        font-size: 29px;
+        line-height: 45px;
+        font-family: 'Chelsea Market',
+            cursive;
+    }
+
+    .download {
+        padding: 10px 26px;
+        margin-bottom: 0;
+    }
+
+    .header-subtitle {
+        font-size: 16px;
+        margin-bottom: 20px;
+}
+
+.tutorial {
+    width: 220px;
+    height: 120px;
+}
+
+.mal-logo {
+    width: 180px;
+}
+
+.statistics {
+}
+}
+
+
+
+
+/* height */
+
+@media(max-height:400px) {
+    .header-text {
+        padding: 0vh;
+    }
+
+    .download {
+        font-size: 16px;
+        padding: 8px 22px;
+    }
+}

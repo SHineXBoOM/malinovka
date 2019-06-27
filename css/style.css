@@ -1,0 +1,226 @@
+/* font-family: 'Montserrat',
+sans-serif;
+
+font-family: 'Mali',
+cursive;
+
+font-family: 'Chelsea Market',
+cursive; */
+
+
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+
+
+/* header - start */
+
+
+.header {
+    background: url('../img/bg.jpg') no-repeat center / cover;
+   min-height: 100vh;
+}
+
+.main {
+    background: url('../img/particles.png');
+    height: inherit;
+}
+
+.navbar {
+    padding: 15px;
+}
+
+.navbar-brand {
+    font-family: 'Chelsea Market', cursive;
+    font-weight: bold;
+    color: red !important;
+    font-size: 28px;
+}
+
+.navbar-brand b {
+    color: #000000;
+}
+
+.navbar-link {
+    font-family: 'Mali', cursive;
+    font-size: 18px;
+    color: #000;
+}
+
+.navbar-link:hover {
+    color: #ff008c;
+}
+
+.navbar-ul {
+    padding: 15px 0px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around
+}
+
+.nav-title,
+.nav-end {
+    font-size: 0;
+}
+
+
+.soc-seti li {
+    font-size: 0;
+    padding: 0;
+    margin: 0;
+    width: 0;
+}
+
+
+
+.header-text {
+    padding-top: 5vh;
+}
+
+.header-title {
+    font-size: 39px;
+    font-family: 'Mali', cursive;
+    color: #ff008c;
+    font-weight: bold;
+}
+
+.header-subtitle {
+    font-size: 20px;
+    color: rgb(110, 91, 91);
+    opacity: 0.8;
+    font-family: 'Mali',
+        cursive;
+    margin-bottom: 30px;
+}
+
+.tutorial {
+    margin-bottom: 30px;
+}
+
+.download {
+    padding: 10px 26px;
+    font-size: 18px;
+    border-radius: 15px;
+    color: #ffffff;
+    background-color: #ff6d6d;
+    font-family: 'Mali', cursive;
+}
+
+.download:hover {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(255, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(255, 0, 0, 1);
+    box-shadow: 0px 0px 5px 0px rgba(255, 0, 0, 1);
+    color: #ffffff;
+}
+
+
+.stats {
+    text-align: center;
+    margin: auto;
+}
+
+.mal-logo {
+    width: 200px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.quantity {
+    font-size: 28px;
+    color: #ffb600;
+    font-weight: bold;
+}
+
+.quan-title {
+    font-size: 30px;
+    color: #ff008c;
+    font-family: 'Mali', cursive;
+}
+
+
+/* header - end */
+
+/* info - start  */
+
+.sec-title {
+    text-align: center;
+    font-size: 39px;
+    font-family: 'Chelsea Market',
+        cursive;
+    color: red;
+    margin-bottom: 30px;
+}
+
+.info-subtitle {
+    color: red;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 16px;
+}
+
+.rule-title {
+    color: #ff6d6d;
+    font-family: 'Chelsea Market',
+        cursive;
+}
+
+.inst p {
+    color: #000;
+    font-family: 'Mali',
+        cursive;
+}
+
+.attention {
+    color: red !important; 
+    font-size: 16px;
+}
+
+.info-title {
+    font-size: 28px;
+      font-family: 'Chelsea Market',
+      cursive;
+      margin-bottom: 30px;
+}
+
+.func-title {
+    font-size: 20px;
+}
+
+.func-title b{
+    color: red;
+}
+
+.func p {
+    font-family: 'Mali',
+    cursive;
+    font-size: 18px;
+}
+
+.sb-p {
+ font-size: 22px;
+ font-family: 'Montserrat',
+ sans-serif;
+ margin-bottom: 30px;
+}
+
+.soc {
+    color: #fff;
+    padding: 12px 28px;
+    background-color: #ffb600;
+    border-radius: 15px;
+}
+
+.soc:hover {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(255, 193, 48, 1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(255, 193, 48, 1);
+    box-shadow: 0px 0px 5px 0px rgba(255, 193, 48, 1);
+    color: #ffffff;
+}
+
+.sb {
+    color: #ff6d6d;
+}
+/* info - end */
